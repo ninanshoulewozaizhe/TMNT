@@ -1,0 +1,64 @@
+
+body {
+	background-image:url("background.png");
+  background-height: 50px;
+  font-size: 8pt;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+h1 {
+	font-size:24pt;
+	font-weight: bold;
+	font-family: Tahoma, Verdana, sans-serif;
+	position: relative;
+	text-align: center;
+}
+
+#banner {
+	width: 974px;	
+	height: 50px;
+}
+#big {
+	display: inline-block;
+	border: 4px solid red;
+	float: left;
+	margin-left: 70px;
+	width: 800px;
+}
+#window {
+  width: 974px;
+	display: block;
+	position: absolute;
+	border: 0px;
+}
+
+#page {
+	position: relative;
+	text-align: center;
+}
+#overview {
+	float: right;
+}
+
+.Link {
+	position: relative;
+	float: right;
+
+}
+#rotten {
+	float: left;
+	width: 550px;
+	height: 83px;
+	background-image: url("rottenbackground.png");
+	border:5px  solid red;
+}
+
+#rate {
+	font: 48pt bold;
+	color: red;
+	text-align: center;
+}
+#reviews {
+	font-size: 8pt;
+	color: white;
+}
